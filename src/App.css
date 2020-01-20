@@ -1,38 +1,67 @@
-.App {
+
+.card-img-top {
+position: relative;
+}
+
+.list-users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin : 50px 50px;
+}
+
+.card {
+  width : 350px;
+  margin : 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-body{
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.btn-primary {
+  background-color: #4BAED4;
+  border-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-user {
+  width: 70px;
+  position: absolute;
+  top: 50px;
+  align-self: center;
+}
+
+.mail {
+  color: #6BA0EA;
+}
+
+.card-text {
+  color: #979797;
+}
+
+.list-posts {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin : 50px 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.comment-img {
+  width : 50px;
+  align-self: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-light {
+  margin : 40px 0 0 20px;
+}
+
+.comments, .comment{
+  width : 80%;
+}
+
+.card .comments{
+  margin : 0;
+  padding: 0;
 }
