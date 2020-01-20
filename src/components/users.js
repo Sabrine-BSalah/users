@@ -27,8 +27,8 @@ export default class Users extends Component {
                 <div className = "list-users">
                     {this.state.listUsers.map ( el => (
                         <div className="card" style={{width: "18 rem"}}>
-                            <img className="card-img-top" src={BackImage} alt="Card image cap" />
-                            <img className="img-user" src={ImgUser} alt="Card image cap" />
+                            <img className="card-img-top" src={BackImage} alt="" />
+                            <img className="img-user" src={ImgUser} alt="" />
                             <div className="card-body">
                                 <h5 className="card-title">{el.name}</h5>
                                 <h6 className="mail">{el.email}</h6>
